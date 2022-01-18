@@ -1,0 +1,52 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+    
+}
+.container
+{
+    background-color: slategray;
+    border: 5px solid wheat;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#btn
+{
+    
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(192, 191, 191);
+    border-radius: 15px;
+    align-self: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#quote
+{
+    
+    font-size: 25px;
+    color: snow;
+    text-align: center;
+    
+}
+#author
+{
+    font-size: 20px;
+    color: snow;
+    float: right;
+    
+}
+.box
+{
+padding: 30px 20px;
+}
+#btn:focus
+{
+    outline: none;
+}
